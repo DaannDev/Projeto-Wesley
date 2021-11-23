@@ -29,9 +29,6 @@ Route::get('/servicos', function () {
     return view('site.servicos');
 })-> name('site.servicos');
 
-Route::get('/admin', function () {
-    return view('site.admin');
-})-> name('site.admin');
 
 Route::get('/contato', function () {
     return view('site.contato');
@@ -39,6 +36,9 @@ Route::get('/contato', function () {
 
 Route::post('/register/new', [UserController::class, 'register']);
 
+Route::post('/contato', [ContatoController::class, 'register']);
+
+Route::get('/admin',[ContatoController::class,'mensagem']) -> name("site.admin");
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('site.home');

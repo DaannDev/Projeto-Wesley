@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,38 +7,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="/"> 😁 Voltar </a>
 </head>
-
-
-<style>
-table,th, td{
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 40px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h3{
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
-}
-
-</style>
 <body>
+<center><a class="navbar-brand" href="/"> 😁 Voltar </a><center>
 
-<h3>Painel do Administrador</h3>
-
-  <table>
-  <tr>
-      <th>Email</th>
-      <th>Nome</th>
-      <th>telefone</th>
-  </tr>
-
-</table>
+<div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
+                <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">Email</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach($mensagens as $message)
+                    <tr>
+                    <th scope="row">{{$message['email']}}</th>
+                    <td>{{$message['nome']}}</td>
+                    <td>{{$message['telefone']}}</td>
+                    </tr>
+                @endforeach
+                </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

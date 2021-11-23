@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contatos;
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
+
 
 class ContatoController extends Controller
 {
@@ -11,8 +15,13 @@ class ContatoController extends Controller
     }
 
     public function register(Request $request){
-        $contato = new Contato();
-        $contato = $contato -> create($request -> all());
+        $contatos = new contatos();
+        $contatos = $contatos -> create($request -> all());
         return Redirect::to("/admin");
+    }
+    public function mensagem(){
+        $mensagens = new contatos();
+        $mensagens = $mensagens -> all();
+        return view("site.admin",["mensagens"=>$mensagens]);
     }
 }

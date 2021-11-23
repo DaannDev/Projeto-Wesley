@@ -12,7 +12,7 @@
 
 
 <div class="container py-5">
-<form>
+<form action="/contato" method="post">
 <div class="form-floating mb-3">
     <label for="email">Email 📨</label>
     <input type="email" class="form-control" name="email" >     
