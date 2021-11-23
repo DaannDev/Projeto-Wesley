@@ -28,9 +28,11 @@
         <li class="nav-item active">
           <a class="nav-link" href="{{route('site.contato')}}">Contato 🍡</a>
         </li>
-        <li class="nav-item active">
+        @auth
+        <li class="nav-item active" >
           <a class="nav-link" href="{{route('site.admin')}}">Administração 🧁</a>
         </li>
+        @endauth
       </ul>
       <div class="px-3 py-2 border-bottom mb-3">
         <div class="text-end">
