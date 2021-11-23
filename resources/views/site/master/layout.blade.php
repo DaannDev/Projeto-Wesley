@@ -13,24 +13,36 @@
 
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Sorveteria Kibom</a>
+    <a class="navbar-brand" href="/">🍮 Sorveteria Kibom 🍮</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="{{route('site.home')}}">Home </a>
+          <a class="nav-link" href="{{route('site.home')}}">Home 🍧</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{route('site.servicos')}}">Quem Somos</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="{{route('site.servicos')}}">Quem Somos 🍦</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{route('site.contato')}}">Contato</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="{{route('site.contato')}}">Contato 🍡</a>
         </li>
-    
+        <li class="nav-item active">
+          <a class="nav-link" href="{{route('site.admin')}}">Administração 🧁</a>
+        </li>
       </ul>
-
+      <div class="px-3 py-2 border-bottom mb-3">
+        <div class="text-end">
+          <a href="/pagelogin" class="btn btn-success text-white me-2" style="text-decoration: none; color: black" >
+            Login
+          </a>
+          <a href="/pageregister" class="btn btn-primary text-white me-2" style="text-decoration: none; color: black" >
+            Cadastrar
+          </a>
+        </div>
+      </div>
+    </div>
     </div>
   </nav>
 </header>

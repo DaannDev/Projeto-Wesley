@@ -10,10 +10,10 @@
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Quem Somos <span class="text-muted">/Nossa Historia</span></h2>
-        <p class="lead">Por iniciativa do Chefe Gelatiere Leandro Sambini, e seu sócio Leo Sambini, nasceu a Sr. Sorvete Franchising. Um modelo de negócio de sucesso operado por mais de 20 anos. O sorvete proporciona qualidade e prazer ao consumidor, pois, tem na sua essência 60% dos produtos com origem italiana.</p>
+        <p class="lead">Por iniciativa do Chefe Gustavo Rodrigues, e seu sócio Lucas Caon, nasceu a Sr. Sorvete Ki Bom. Um modelo de negócio de sucesso operado por mais de 20 anos. O sorvete proporciona qualidade e prazer ao consumidor, pois, tem na sua essência 60% dos produtos com origem vascaina.</p>
       </div>
       <div class="col-md-5">
-        <img src="https://gartic.com.br/imgs/mural/bi/biiinho/1267403425.gif" alt="">
+        <img src="https://cdn-icons-png.flaticon.com/512/284/284758.png" alt="" width="300">
       </div>
     </div>
 
@@ -25,7 +25,7 @@
         <p class="lead">Tem na essência de seus produtos a fabricação de forma semi-artesanal produzidas por um Chef Profissional, acolhendo seus clientes em um ambiente de sorveteria tradicional com espaço criança e café para a tranquilidade e casualidade.</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <img src="https://static.hbt.triider.com.br/photos/quotation/gallery/4-1248542.jpg" alt="">
+        <img src="https://cdn.discordapp.com/attachments/621490820146659369/912550096015613952/Sem_Titulo-7.png" alt="" width="300">
       </div>
     </div>
 

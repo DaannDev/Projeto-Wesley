@@ -17,6 +17,6 @@ class UserController extends Controller
     public function register(Request $request) {
        $user = new User;
        $user = $user -> create ($request -> all());
-       return Redirect::to("home");
+       return Redirect::to("");
     }
 }
